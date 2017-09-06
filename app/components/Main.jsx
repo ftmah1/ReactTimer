@@ -6,10 +6,13 @@ var Nav = require('Nav');
 
 var Main = (props) => {
   return(
-    <div> 
+    <div>
       <Nav/>
       <div>
       <p>Main.jsx Rendered</p>
+      <div>
+        {props.children}
+      </div>
       </div>
     </div>
 
