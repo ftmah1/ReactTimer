@@ -46,3 +46,8 @@
 .controls .button:first-child{
   margin-right: 1rem;
 }
+
+.page-title{
+  margin: 2rem 0;
+  text-align: center;
+}
